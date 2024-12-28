@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply px-4 py-2 rounded-lg inline-flex font-medium tracking-tight justify-center items-center 
+    }
+    .btn-primary {
+        @apply bg-neutral-950 text-white
+    }
+    .btn-text {
+        @apply text-black bg-transparent
+    }
+    .logo-tricker-img {
+        @apply h-8 w-auto
+    }
+    .forus {
+        @apply text-sm border border-[#222]/10 inline-flex px-3 py-1 rounded-lg 
+    }
+    .card {
+        @apply p-10 rounded-3xl border border-[#F1F1F1] max-w-xs w-full shadow-[0_7px_14px_#EAEAEA]
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
