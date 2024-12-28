@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <section ref={heroRef} id='home' className="pt-8 pb-20 md:pt-5 md:pb-10 overflow-x-clip bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)]">
       <div className="container">
-        <div className="md:flex items-center">
+        <div className="md:flex pt-[8rem] items-center">
           <div className="md:w-[478px] ">
             <h1 className='forus' >Version 2.0 is here</h1>
             <h1 className='text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text  ' >Pathway to productivity</h1>
